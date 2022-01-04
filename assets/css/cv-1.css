@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+}
+.row {
+    background-color: #f2f3f4;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 280px;
+    padding-bottom: 50px;
+    padding-right: 280px;
+}
+.button-1 {
+    background-color: grey;
+    color: white;
+    height: 36px;
+    width: 165px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    margin-top: 10px;
+    color: red !important;
+}
+.info-i {
+    font-size: 30px;
+}
+.info-p {
+    font-size: 20px;
+}
+.hr {
+    margin-top: 15px !important;
+    margin-bottom: 50px;
+}

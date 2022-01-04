@@ -1,0 +1,70 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+::placeholder {
+    color: black;
+}
+:focus {
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+.bg-image {
+    background-image: url("../img/city-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 715px;
+    width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.form-label {
+    font-weight: bold;
+}
+.form-input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.form-submit {
+    width: 300px;
+    height: 37px;
+    background-color: #9145b6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.sign-in-link {
+    text-decoration: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.button:hover {
+    background-color: #B958A5;
+}
